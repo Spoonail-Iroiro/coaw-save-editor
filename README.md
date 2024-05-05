@@ -83,7 +83,7 @@ Overwrite existing save file with it and launch the game normally...
 
 ### How can I find where to edit?
 - Explore the main object tree obtained by `coawSave.getMain()`
-- Get a json file obtained by `exportMainAsJson()` before and after changing the value in the game and diff them
+- Get a json file by `exportMainAsJson()` before and after changing the value in the game and diff them
 - Read the source code (most of the game's logics are in `CoAW/game/js/game/union.js`)
 
 You can also seek help from someone in [CoAW modding Discord](https://discord.gg/RgYrD3uPZM)
