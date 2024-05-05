@@ -73,12 +73,6 @@ class CoAWSaveManager {
   }
 }
 
-// 次にブラウザ版異世界の創造者を起動してタイトル画面が表示された状態でこのコードを開発者コンソールにコピペして実行して下さい。
-// 書き換え対象のファイル選択が開きますので選択して下さい。
-// 変換が完了するとブラウザのダウンロードファイルとしてエクスポートされます。※実際にはインターネットアクセスはしていません
-
-// なお変換作業実施後はゲームをスタートする前に一度ページをリロードしてください。
-
 async function zipData(data) {
   return new Promise((resolve) => {
     tWgm.tGameSave.zipDataWorker(data, resolve);
